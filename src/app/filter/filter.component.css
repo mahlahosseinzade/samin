@@ -1,0 +1,9 @@
+input{
+    text-align: center;
+    border-radius: 13px;
+    box-sizing: content-box;
+    transition: width 0.4s ease-in-out;
+    background: rgb(150,150,150);
+    color: white;
+    margin-left: 160px;
+    }

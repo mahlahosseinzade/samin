@@ -1,0 +1,16 @@
+.table-component{
+    padding: 15px;
+    color: white;
+    width: 300px;
+    border-color: purple;
+    text-align: center;
+    background: rgb(95,95,95);
+    position:relative;
+    align-self: center;
+    margin-left: 100px;
+}
+button {
+    color: crimson;
+    font-family: Cambria, Georgia;
+    border-radius: 18px;
+}

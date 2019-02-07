@@ -1,0 +1,7 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>students list</h1>
+</div>
+<app-filter (searchEvent)="search($event)"></app-filter>
+<app-table  [appcomponent]="appcomponent"  [ngmodul]="str"></app-table>
+<router-outlet></router-outlet>

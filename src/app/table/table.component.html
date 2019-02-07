@@ -1,0 +1,13 @@
+<table class="table-component">
+    <tr>
+        <th><button (click)="reverse=!reverse;Order('fname')">sort by name</button></th>
+        <th><button (click)="reverse=!reverse;Order('lname')">sort by family</button></th>
+        <th><button (click)="reverse=!reverse;Orderavg('avg',reverse)">sort by avg</button></th>
+    </tr>
+    <tr *ngFor="let any of studentes ">
+        <td>{{any.name}}</td>
+        <td>{{any.family}}</td>
+        <td>{{any.avg}}</td>
+    </tr>
+
+</table>
